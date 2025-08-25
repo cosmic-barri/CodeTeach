@@ -58,3 +58,19 @@ body{
     text-decoration: underline;
     text-decoration-color: blueviolet;
 }
+
+pre{
+    background-color: wheat;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 1em;
+}
+
+code{
+    display: block;
+    font-family: Consolas, Menlo, "Liberation Mono", monospace;
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: #333;
+    white-space: pre;
+}
