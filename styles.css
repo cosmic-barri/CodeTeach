@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(99, 99, 99);
+}
+
+.top{
+    overflow: hidden;
+    background-color: black;
+}
+
+.top a{
+    float: left;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 20px 80px;
+    text-decoration: none;
+}
+
+.top button{
+    float: right;
+    display: block;
+    text-align: center;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    padding: 20px 80px;
+    text-decoration: none;
+}
+
+.top a:hover{
+    color: rgb(132, 0, 255);
+    font-size: large;
+}
+
+.top button:hover{
+    color: rgb(132, 0, 255);
+    font-size: large;
+}
+
+.text p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.text a{
+    color: aquamarine;
+}
+
+.text hr{
+    border-color: blueviolet;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.header h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
