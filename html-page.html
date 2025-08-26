@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Learn HTML</title>
 </head>
 <body>
       <div class="top">
@@ -16,12 +16,26 @@
         <button onclick="window.location.href='index.html'">Inicio</button>
     </div>
 
+    <div class="index">
+        <fieldset>
+            <h3>Índice</h3>
+           <ol>
+                <li><a href="#Introduccion">Introducción</a></li>
+                <li><a href="#Bases">Bases</a></li>
+                <li><a href="#Atributos">Atributos</a></li>
+           </ol>
+        </fieldset>
+    </div>
+
     <div class="text">
         <p>
             <strong>¡Recuerda que en las explicaciones se da por sentado que ya tienes conocimiento de programación!</strong> Si no sabes nada de programación ve <a href=base-page.html>aquí</a>. <br>
-            Cuando veas una palabra <em>así</em>, significará que no es literal, es una forma de explicar algo del código a modo de comentario. 
+            Cuando veas una palabra <em>así</em>, significará que no es literal, es una forma de explicar algo a modo de comentario. 
             <hr>
         </p>
+            <h1>HTML</h1>
+            <a name="Introduccion"></a>
+            <h2>Introducción</h2>
         <p>
             HTML significa hypertext markup language/lenguaje de marcado de hipertextos. <br>
             Un hipertexto es un texto que contiene enlaces a otros textos. <br>
@@ -29,9 +43,43 @@
             Para colocar un comentario en HTML se hace asi:
             <pre><code>&lt;!-- <em>COMENTARIO</em>--&gt;</code></pre>
         </p>
+            <a name="Bases"></a>
+            <h2>Bases</h2>
         <p>
             Cuando comenzamos un archivo HTML debemos añadir la siguiente etiqueta:
             <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+        </p>
+        <p> 
+            Como estarás viendo HTML utiliza etiquetas, que tienen la estructura de &lt;<em>nombre de etiqueta</em>&gt; y normalmente tienen etiqueta de cierre. Hasta ahora ninguna de las etiquetas mencionadas utiliza una de esta (recuerda que siempre que una etiqueta lleve una de cierre será visible en el bloque de código de ejemplo.) <br>
+            Las etiquetas de cierre tiene la estructura de &lt;/<em>nombre de etiqueta</em>&gt;. <br>
+        </p>
+        <p>
+            Luego de utilizar la etiqueta de !DOCTYPE debemos usar las siguientes etiquetas:
+            <pre><code>&lt;html&gt; <br> <em>code</em> <br>&lt;/html&gt;</code></pre>
+        </p>
+        <p>
+            Dentro de las etiquetas html van dos importantes, &lt;head&gt; y &lt;body&gt;, ambas con etiquetas de cierre. <br>
+            Hasta ahora un archivo .html nos estaría quedando algo así:
+            <pre><code>&lt;!DOCTYPE html&gt; 
+&lt;html lang=<em>"idioma"</em>&gt; 
+&lt;head&gt;  
+ <em>code</em> 
+&lt;/head&gt; 
+&lt;body&gt;  
+ <em>code</em> 
+&lt;/body&gt;
+&lt;/html&gt; 
+            </code></pre> 
+        </p>
+        <p>Seguramente te diste cuenta de que dentro de la etiqueta html coloque algo que todavía no se explicó, bien, eso es porque es el próximo tema, los atributos.</p>
+        <a name="Atributos"></a>
+        <h2>Atributos</h2>
+        <p>Los atributos son informacion adicional en una etiqueta, sirven para identificar, personalizar o configurar el comportamiento o apariencia de una etiqueta. <br>
+            Casi siempre tienen la siguiente estructura: <em>nombre del atributo</em>=<em>"valor"</em> y se colocan dentro de la etiqueta de apertura luego del nombre de esta, ademas en una misma etiqueta puedes poner cuantos atrubutos necesites. <br>
+            Entonces ¿que es el atributo dentro de la etiqueta html? Es el atributo lang y sirve para indicar el idioma principal de la pagina. <br>
+            Para ello usamos acortaciones de estos llamados codigos de idiomas(definidos por la ISO 639-1), por ejemplo "es" para el español, "en" para el ingles, "ja" para el japones, "de" para el aleman, etc. <br>
+            <a href="https://es.wikipedia.org/wiki/ISO_639-1">Aqui</a> tienes una pagina para encontrar mas de estos. 
+            <pre><code>&lt;html lang="es"&gt;</code></pre>  
         </p>
     </div>
 </body>

@@ -37,10 +37,29 @@ body{
     font-size: large;
 }
 
+.index h3{
+    text-decoration: underline;
+    color: rgb(132, 0, 255);
+}
+
+.index fieldset{
+    position: fixed;   
+    top: 8%;          
+    right:10px;        
+    padding: 1rem;               
+    z-index: 1000;   
+    background-color: thistle;    
+    opacity: 0.8;
+}
+
+.text h1{
+    text-align: center;
+}
+
 .text p{
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 1px;
     font-size: large;
 }
 
