@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Learn HTML</title>
+    <title>Aprende HTML</title>
 </head>
 <body>
       <div class="top">
@@ -23,6 +23,7 @@
                 <li><a href="#Introduccion">Introducción</a></li>
                 <li><a href="#Bases">Bases</a></li>
                 <li><a href="#Atributos">Atributos</a></li>
+                <li><a href="#Head">Head</a></li>
            </ol>
         </fieldset>
     </div>
@@ -74,12 +75,20 @@
         <p>Seguramente te diste cuenta de que dentro de la etiqueta html coloque algo que todavía no se explicó, bien, eso es porque es el próximo tema, los atributos.</p>
         <a name="Atributos"></a>
         <h2>Atributos</h2>
-        <p>Los atributos son información adicional en una etiqueta, sirven para identificar, personalizar o configurar el comportamiento o apariencia de una etiqueta. <br>
+        <p>Los atributos son información adicional en una etiqueta, sirven para identificar, personalizar o configurar el comportamiento o apariencia de una de estas. <br>
             Casi siempre tienen la siguiente estructura: <em>nombre del atributo</em>=<em>"valor"</em> y se colocan dentro de la etiqueta de apertura luego del nombre de esta, además en una misma etiqueta puedes poner cuantos atributos necesites. <br>
             Entonces ¿qué es el atributo dentro de la etiqueta html? Es el atributo lang y sirve para indicar el idioma principal de la página. <br>
             Para ello usamos versiones acortadas de estos, llamados códigos de idiomas(definidos por la ISO 639-1), por ejemplo "es" para el español, "en" para el inglés, "ja" para el japonés, "de" para el alemán, etc. <br>
             <a href="https://es.wikipedia.org/wiki/ISO_639-1">Aquí</a> tienes una página para encontrar más de estos. 
             <pre><code>&lt;html lang="es"&gt;</code></pre>  
+        </p>
+        <a name="Head"></a>
+        <h2>Head</h2>
+        <p>La etiqueta head sirve para colocar informacion que sera util para la pagina, por ejemplo si es una pagina que esta usando el español, ademas de poner el atributo lang en la etiqueta html, dentro de head es bueno indicar el uso de este idioma ya que sino se puede ocasionar algun error como que no sea visible la letra ñ. </p> <br>
+        <p>Tambien el titulo de esta y espacio que ocupe en pantalla.
+            <pre><code>&lt;head&gt; 
+    &lt;meta charset
+            </code></pre>
         </p>
     </div>
 </body>
