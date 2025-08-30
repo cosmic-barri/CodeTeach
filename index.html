@@ -2,24 +2,57 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+    name="description"
+    content="Aprende online lenguajes y etiquetas de programación: HTML, CSS, JavaScript, Lua, GDScript..."
+    />
     <link rel="stylesheet" href="styles.css">
     <title>Aprende Programacion</title>
 </head>
 <body>
-    <div class="top">
-        <a href="#" type="button" onclick="window.location.href='html-page.html'">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JavaScript</a>
-        <a href="#">Lua</a>
-        <a href="#">GDScript</a>
-    </div>
-
-    <div class="text">
+    <header>
+        <nav aria-label="Navegacion principal">
+            <ul class="nav-list">
+                <li><a href="html-page.html">HTML</a></li>
+                <li><a href="css-page.html">CSS</a></li>
+                <li><a href="js-page.html">JavaScript</a></li>
+                <li><a href="lua-page.html">Lua</a></li>
+                <li><a href="gdscript-page.html">GDScript</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="hero">
+        <h1>Bienvenido a Aprende Programación</h1>
         <p>
-            Elige el lenguaje por el que quieras empezar, cliqueando uno de los botones de la barra de arriba. <br>
-            <strong>¡Recuerda que en las explicaciones se da por sentado que ya tienes conocimiento de programación!</strong> Si no sabes nada de programación ve <a href=base-page.html>aquí</a>.
+            Elige el lenguaje por el que quieras empezar haciendo clic en uno de
+            los elementos del menú superior.
         </p>
-    </div>
+        <p>
+            <strong>
+            Recuerda que en las explicaciones se da por sentado que ya tienes
+            conocimientos básicos de programación.
+            </strong>
+        </p>
+        <p>
+            Si partes de cero, empieza
+            <a href="base-page.html">aquí</a>.
+        </p>
+        </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 Aprende Programación</small>
+    <nav aria-label="Enlaces legales">
+      <ul class="footer-list">
+        <li><a href="#">Política de privacidad</a></li>
+        <li><a href="#">Términos de uso</a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
