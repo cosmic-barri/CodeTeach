@@ -5,6 +5,8 @@
   --primary-color: #8400ff;
   --accent-color: #7fffd4;
   --text-color: #fff;
+  --link-color: #adff2f;
+  --max-width: 800px;
   --spacing: 1rem;
 }
 
@@ -36,7 +38,7 @@ body {
 .nav-list a {
   display: block;
   padding: var(--spacing) 2rem;
-  color: var(--text-color);
+  color: var(--link-color);
   text-decoration: none;
   transition: color 0.2s, font-size 0.2s;
 }
@@ -60,6 +62,10 @@ body {
   color: white;
 }
 
+.hero a {
+  color: #adff2f;
+}
+
 /*ESTILOS DE EL INDICE*/
 .index h3{
     text-decoration: underline;
@@ -76,36 +82,16 @@ body {
     opacity: 0.8;
 }
 
-/*ESTILOS DE TEXTO*/
-.text h1{
-    text-align: center;
-}
-
-.text p{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 1px;
-    font-size: large;
-}
-
-.text a{
-    color: var(--accent-color);
-}
-
-.text hr{
-    border-color: var(--primary-color);
-    box-shadow: 0 2px 4px rgba(0,0,0,.2);
-}
-
-.text h2{
-    padding-left: 20px;
-}
-
 /*ESTILOS DE ENCABEZADO*/
 .header h1{
     text-align: center;
     text-decoration: underline;
     text-decoration-color: var(--primary-color);
+}
+
+/*ESTILOS DE FOOTER*/
+.footer-list a {
+  color: var(--link-color);
 }
 
 /*ESTILOS DE BLOQUES DE CODIGO*/
